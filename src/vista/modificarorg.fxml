@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="300.0" prefWidth="425.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="controlador.ModificarorgController">
+   <children>
+      <Button fx:id="btnconsltorg" layoutX="32.0" layoutY="255.0" mnemonicParsing="false" onAction="#btnconsltorg" prefHeight="25.0" prefWidth="73.0" text="Consultar" />
+      <Button fx:id="btncancelorg" layoutX="326.0" layoutY="256.0" mnemonicParsing="false" onAction="#cancelarorg" prefHeight="25.0" prefWidth="67.0" text="Cancelar" />
+      <Button fx:id="btnnewconsultaorg" layoutX="112.0" layoutY="255.0" mnemonicParsing="false" onAction="#consultaorg" prefHeight="25.0" prefWidth="113.0" text="Nueva Consulta" />
+      <Button fx:id="btnmodifyorg" layoutX="231.0" layoutY="255.0" mnemonicParsing="false" onAction="#modifyorg" prefHeight="25.0" prefWidth="88.0" text="Modificar" />
+      <Label layoutX="43.0" layoutY="41.0" text="Codigo Organizacion" />
+      <Label layoutX="40.0" layoutY="74.0" text="Nombre Organizacion" />
+      <Label layoutX="73.0" layoutY="147.0" text="Telefono" />
+      <Label layoutX="62.0" layoutY="108.0" text="Direccion" />
+      <Label layoutX="47.0" layoutY="182.0" text="Correo Electronico " />
+      <Label layoutX="83.0" layoutY="214.0" text="Estado" />
+      <TextField fx:id="txtorg" layoutX="169.0" layoutY="37.0" />
+      <TextField fx:id="txtorganizacion" layoutX="169.0" layoutY="70.0" />
+      <TextField fx:id="txtdireccion" layoutX="169.0" layoutY="104.0" />
+      <TextField fx:id="txttelefono" layoutX="169.0" layoutY="143.0" />
+      <TextField fx:id="txtemail" layoutX="169.0" layoutY="177.0" />
+      <TextField fx:id="txtstatus" layoutX="169.0" layoutY="210.0" />
+   </children>
+</AnchorPane>

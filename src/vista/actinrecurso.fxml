@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="215.0" prefWidth="466.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="controlador.ActinrecursoController">
+   <children>
+      <Label layoutX="44.0" layoutY="53.0" text="Codigo Recurso" />
+      <Label layoutX="52.0" layoutY="93.0" text="Nombre Usuario" />
+      <Label layoutX="51.0" layoutY="127.0" text="Status" />
+      <TextField fx:id="txtcode" layoutX="175.0" layoutY="49.0" />
+      <TextField fx:id="txtuser" layoutX="175.0" layoutY="89.0" />
+      <TextField fx:id="txtstatus" layoutX="175.0" layoutY="123.0" />
+      <Button fx:id="btncancel" layoutX="351.0" layoutY="160.0" mnemonicParsing="false" onAction="#cancelar" prefHeight="25.0" prefWidth="67.0" text="Cancelar" />
+      <Button fx:id="btnnewconsulta" layoutX="14.0" layoutY="160.0" mnemonicParsing="false" onAction="#consulta" prefHeight="25.0" prefWidth="113.0" text="Consultar" />
+      <Button fx:id="btnmodify" layoutX="250.0" layoutY="160.0" mnemonicParsing="false" onAction="#modify" prefHeight="25.0" prefWidth="88.0" text="Modificar" />
+      <Label layoutX="42.0" layoutY="28.0" text="*Por favor, ingrese el estado (Activo o Inactivo en la casilla Status)" />
+      <Button fx:id="btnnew" layoutX="148.0" layoutY="160.0" mnemonicParsing="false" onAction="#actnew" prefHeight="25.0" prefWidth="88.0" text="Nuevo" />
+   </children>
+</AnchorPane>

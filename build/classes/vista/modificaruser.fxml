@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="379.0" prefWidth="391.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="controlador.ModificaruserController">
+   <children>
+      <Label layoutX="69.0" layoutY="40.0" text="Codigo Usuario" />
+      <Label layoutX="77.0" layoutY="80.0" text="Tipo Usuario" />
+      <Label layoutX="76.0" layoutY="114.0" text="Nombre Usuario" />
+      <Label layoutX="81.0" layoutY="153.0" text="Contrasena" />
+      <Label layoutX="89.0" layoutY="186.0" text="Nombre" />
+      <Label layoutX="64.0" layoutY="224.0" text="Correo Electronico" />
+      <Label layoutX="87.0" layoutY="260.0" text="Telefono" />
+      <Label layoutX="86.0" layoutY="297.0" text="Direccion" />
+      <TextField fx:id="txtcode" layoutX="178.0" layoutY="36.0" />
+      <TextField fx:id="txtuser" layoutX="178.0" layoutY="76.0" />
+      <TextField fx:id="txtusername" layoutX="178.0" layoutY="110.0" />
+      <TextField fx:id="txtpassword" layoutX="178.0" layoutY="149.0" />
+      <TextField fx:id="txtname" layoutX="178.0" layoutY="187.0" />
+      <TextField fx:id="txtemail" layoutX="178.0" layoutY="220.0" />
+      <TextField fx:id="txttel" layoutX="178.0" layoutY="256.0" />
+      <TextField fx:id="txtaddress" layoutX="178.0" layoutY="293.0" />
+      <Button fx:id="btnconslt" layoutX="14.0" layoutY="340.0" mnemonicParsing="false" onAction="#btnconslt" prefHeight="25.0" prefWidth="73.0" text="Consultar" />
+      <Button fx:id="btncancel" layoutX="308.0" layoutY="341.0" mnemonicParsing="false" onAction="#cancelar" prefHeight="25.0" prefWidth="67.0" text="Cancelar" />
+      <Button fx:id="btnnewconsulta" layoutX="94.0" layoutY="340.0" mnemonicParsing="false" onAction="#consulta" prefHeight="25.0" prefWidth="113.0" text="Nueva Consulta" />
+      <Button fx:id="btnmodify" layoutX="213.0" layoutY="340.0" mnemonicParsing="false" onAction="#modify" prefHeight="25.0" prefWidth="88.0" text="Modificar" />
+   </children>
+</AnchorPane>

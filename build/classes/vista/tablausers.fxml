@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="275.0" prefWidth="553.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="controlador.TablausersController">
+   <children>
+      <TableView fx:id="tableuserss" layoutX="14.0" layoutY="45.0" prefHeight="200.0" prefWidth="526.0">
+        <columns>
+          <TableColumn fx:id="coltipouser" prefWidth="95.0" text="Tipo Usuario" />
+          <TableColumn fx:id="colusername" prefWidth="72.0" text="Username" />
+            <TableColumn fx:id="colpass" prefWidth="58.0" text="Password" />
+            <TableColumn fx:id="colname" prefWidth="75.0" text="Nombre" />
+            <TableColumn fx:id="colemail" prefWidth="75.0" text="Email" />
+            <TableColumn fx:id="coltel" prefWidth="75.0" text="Telefono" />
+            <TableColumn fx:id="coladdress" prefWidth="75.0" text="Direccion" />
+            <TableColumn prefWidth="75.0" text="Telefono" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

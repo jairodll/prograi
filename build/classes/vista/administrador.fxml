@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.AdministradorController">
+   <children>
+      <MenuBar fx:id="menu" layoutX="-6.0" layoutY="2.0">
+         <menus>
+            <Menu fx:id="usuarios" mnemonicParsing="false" text="Gestionar Usuarios">
+               <items>
+                  <MenuItem fx:id="crearusuario" mnemonicParsing="false" onAction="#crearu" text="Crear Usuario" />
+                  <MenuItem fx:id="modificaruser" mnemonicParsing="false" onAction="#modificaru" text="Modificar Usuario" />
+                  <MenuItem fx:id="inactivaruser" mnemonicParsing="false" onAction="#inact" text="Activar/Inactivar Usuario" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Gestionar Organizacion">
+               <items>
+                  <MenuItem fx:id="crearorg" mnemonicParsing="false" onAction="#orgcrea" text="Crear Organizacion" />
+                  <MenuItem fx:id="modificarorg" mnemonicParsing="false" onAction="#orgmodify" text="Modificar Organizacion" />
+                  <MenuItem fx:id="inact" mnemonicParsing="false" onAction="#inactorg" text="Inactivar/Activar Organizacion" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Gestionar Recursos">
+               <items>
+                  <MenuItem fx:id="btncrearecurso" mnemonicParsing="false" onAction="#crearec" text="Crear Recurso" />
+                  <MenuItem fx:id="btnactrecursos" mnemonicParsing="false" onAction="#actrecursos" text="Actualizar Recurso" />
+                  <MenuItem fx:id="inrecurso" mnemonicParsing="false" onAction="#recurso" text="Activar/Inactivar Recurso" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
